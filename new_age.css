@@ -1,0 +1,148 @@
+.fontClassic{font-family: 'Playfair Display', serif;}
+.fontCool{font-family: 'Ubuntu', sans-serif;}
+
+body {
+    margin-bottom: -24px;
+}
+.container2{
+    width: 60%;
+    margin: auto;
+}
+.black_screen{
+    width:"245px"; 
+    height:"500px";
+    background-color: black;
+}
+
+
+
+.navbar {
+    box-shadow: 0px 2px 50px rgba(0, 0, 0, 0.207);
+}
+.navbar .container .navbar-brand{
+    font-weight: 700;
+    font-family: 'Ubuntu', sans-serif;
+}
+.navbar .container .collapse .navbar-nav .s .btn{
+    background-color: #2937F0;
+    border-radius: 10rem;
+}
+
+/* section 1 */
+.sec1{
+    margin-top: 8rem;
+    margin-bottom: 7rem;
+}
+
+.sec1 .info p{
+    color: gray;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.sec1 .info h2{
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 4.5rem;
+}
+.circle{
+    width: 25rem;
+    height: 25rem;
+    border-radius: 50%;
+    background: linear-gradient(to right , #532CEB ,#9F1AE2);
+    
+}
+video{
+    border-radius: 15%;
+}
+
+
+/* section 2 */
+
+
+.sec2{
+    background: linear-gradient(to right , #3932EE ,#9F1AE2);
+}
+.sec2 h2{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;  
+}
+
+
+/* section 3 */
+
+.item h4{font-weight: 600;}
+.circle2{
+    width: 22rem;
+    height: 22rem;
+    border-radius: 50%;
+    background: linear-gradient(to right , #532CEB ,#9F1AE2);
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.section3{height: 90vh;}
+
+
+
+
+/* section 4 */
+
+.section4{ padding-top: 6rem; padding-bottom: 6rem; background-color: #F8F9FA;}
+.photo img{border-radius: 100%;}
+.section4 .row .text p{font-weight: 200;}
+.section4 .row .text h4{font-size: 4.5rem; font-weight: 700;}
+
+
+/* photo section */
+.photo_section{
+    height: 80vh;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.336),rgba(0, 0, 0, 0.374)),url(./assets/photoSession.jpg);
+    background-color: rgb(0, 0, 0) ;
+    background-position: center;
+    
+}
+
+.photo_section h2{
+    font-size: 5.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+
+@media (max-width: 995px) {
+    /* showcase */
+    .sec1{
+        margin-top: 0;
+        margin-bottom: 7rem;
+    }
+    .sec1 .info{
+        text-align: center;
+        margin-bottom: 6rem;
+    }
+    .circle{
+        scale: 0.8;
+    }
+
+    /* section 3 */
+
+    .section3{
+        height: 130vh;
+    }
+    .circle2{
+        scale:0.7;
+        margin-bottom: 4rem;
+        justify-content: center ;
+    }
+
+
+    /* section 4 */
+    .photo{scale: 0.8;}
+    .section4 .row .text{
+        text-align: center;
+    }
+
+    /* photo section */
+    .photo_section{
+        text-align: center;
+    }
+ }
